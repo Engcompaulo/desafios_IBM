@@ -65,36 +65,15 @@ var num_suspeitos = -1;
 var num_locais = -1;
 var num_armas = -1;
 
-var teorema = "Alan T. Usring usando um tsrezoitão em tokio";
+var teorema = "Alan T. Uring usando um trezoitão em tokio";
 console.log(teorema)
 teorema = teorema.replace(/ /g, "").toLowerCase();
 
-crime = teorema;
-// suspeito = function(investigar, index, array){
-//   elemento = teorema.indexOf(investigar.replace(/ /g, "").toLowerCase());
-//   if(elemento != -1){
-//     num_suspeitos = index + 1
-//   }
-// }
-
-// local = function(investigar, index, array){
-//   elemento = teorema.indexOf(investigar.replace(/ /g, "").toLowerCase());
-//   if(elemento != -1){
-//     num_locais = index + 1
-//   }
-// }
-
-// arma = function(investigar, index, array){
-//   elemento = teorema.indexOf(investigar.replace(/ /g, "").toLowerCase());
-//   if(elemento != -1){
-//     num_armas = index + 1
-//   }
-// }
+crime = teorema; //reaproveitamento das funções do crime
 
 suspeitos.forEach(suspeito);
 locais.forEach(local);
 armas.forEach(arma);
-
 teoremas = [num_suspeitos, num_locais, num_armas];
 console.log(teoremas)
 
@@ -112,7 +91,7 @@ else if(teste[0] == false && teste[1] == true && teste[2] == true){
 else if(teste[0] == true && teste[1] == false && teste[2] == true){
   console.log(2) // 2 - indica que o local está incorreto
 }
-else if(teste[0] == true && teste[1] == false && teste[2] == true){
+else if(teste[0] == true && teste[1] == true && teste[2] == false){
   console.log(3) // - 3 indica que a arma está incorreta
 }
 else if(teste[0] == false && teste[1] == false && teste[2] == false){
