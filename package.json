@@ -1,0 +1,23 @@
+{
+  "name": "desafios_ibm",
+  "version": "1.0.0",
+  "description": "Desafio processo seletivo IBM 2019",
+  "main": "seeking_killer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"rodar": "nodemon seeking_killer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Engcompaulo/desafios_IBM.git"
+  },
+  "author": "Paulo Ricardo Siqueira da Silva de Sousa - Engcompaulo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Engcompaulo/desafios_IBM/issues"
+  },
+  "homepage": "https://github.com/Engcompaulo/desafios_IBM#readme",
+  "dependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
