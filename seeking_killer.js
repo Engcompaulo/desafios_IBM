@@ -65,7 +65,7 @@ var num_suspeitos = -1;
 var num_locais = -1;
 var num_armas = -1;
 
-var teorema = "Alan T. Uring usando um trezoitão em tokio";
+var teorema = "Alan T. Uring usando um trezoitão em tokio"; // Aqui deve ser inserido o novo teorema.
 console.log(teorema)
 teorema = teorema.replace(/ /g, "").toLowerCase();
 
